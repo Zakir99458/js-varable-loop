@@ -19,3 +19,7 @@ function printPartners(partnerName){
     console.log(partnerName);
 }
 
+let nameP = "My name is Zakir";
+const changeNA = "you can not change";
+console.log(nameP);
+console.log(changeNA);
