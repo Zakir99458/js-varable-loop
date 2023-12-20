@@ -1,5 +1,5 @@
 // Declare array
-var elementList = [10,6,22,12,30,11,50,33];
+const elementList = [10,6,22,12,30,11,50,33];
 
 // Create function to find the largest number
 function findLargestNumber(elementList){
