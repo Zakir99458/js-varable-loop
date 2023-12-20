@@ -2,10 +2,16 @@ var checkNumer = 100;
 
 function isOdd(checkNumer){
     if (checkNumer % 2 == 0){
-        console.log(checkNumer + " is even number.");
+        return true;
     }
     else
-        console.log(checkNumer + " is odd number.");
+        return false;
 }
 
-isOdd(checkNumer);
+var numberStatus = isOdd(checkNumer);
+
+if (numberStatus == true){
+    console.log(checkNumer + " is even number.");
+}
+else
+    console.log(checkNumer + " is odd number.");
