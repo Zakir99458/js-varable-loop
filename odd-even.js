@@ -1,6 +1,6 @@
 var checkNumer = 100;
 
-function checkNumerFunct(checkNumer){
+function isOdd(checkNumer){
     if (checkNumer % 2 == 0){
         console.log(checkNumer + " is even number.");
     }
@@ -8,4 +8,4 @@ function checkNumerFunct(checkNumer){
         console.log(checkNumer + " is odd number.");
 }
 
-checkNumerFunct(checkNumer);
+isOdd(checkNumer);
