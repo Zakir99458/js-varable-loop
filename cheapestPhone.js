@@ -24,4 +24,5 @@ let cheapest = phones[0];
 const cheapestFound = findCheapestPhone(phones, cheapest);
 
 console.log("Oh! yes, the cheapest phone is: " + cheapestFound.name + " and Price is: " + cheapest.price);
-
+delete phones[0].name;
+console.log(phones[0]);
