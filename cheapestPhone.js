@@ -7,19 +7,21 @@ const phones = [
 ];
 
 function findCheapestPhone(phones, cheapest){
+    let cheapestPhone = [];
     for(const phone of phones){
-        // console.log(phone);
-        // console.log(cheapest);
-        if(phone.price<cheapest){
-            cheapest = phone.price;
+         console.log(phone.price);
+         console.log(cheapest.price);
+        if(phone.price<cheapest.price){
+            cheapest.price = phone.price;
+            cheapestPhone = phone;
         }
     }
-    return cheapest;
+    return cheapestPhone;
 }
 
 
 let cheapest = phones[0];
 const cheapestFound = findCheapestPhone(phones, cheapest);
 
-console.log(cheapestFound);
+console.log("Oh! yes, the cheapest phone is: " + cheapestFound.name + " and Price is: " + cheapest.price);
 
